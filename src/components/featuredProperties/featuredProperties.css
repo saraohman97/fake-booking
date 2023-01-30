@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding: 0 10px;
 }
 
 .fp-item {

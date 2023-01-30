@@ -1,0 +1,93 @@
+.s-item {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.s-img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.s-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.s-title {
+    font-size: 20px;
+    color: var(--clr-light-blue);
+}
+.s-taxi-opt {
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.s-sub-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+.s-features {
+    font-size: 12px;
+}
+.s-cancel-opt {
+    font-size: 12px;
+    color: green;
+    font-weight: bold;
+}
+.s-cancel-sub-title {
+    font-size: 12px;
+    color: green;
+}
+
+
+.s-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s-rating {
+    display: flex;
+    justify-content: space-between;
+}
+.s-rating>span {
+    font-weight: 500;
+}
+.s-rating>button {
+    background-color: var(--clr-blue);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.s-details-texts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.s-price {
+    font-size: 24px;
+}
+.s-tax-opt {
+    font-size: 12px;
+    color: gray;
+}
+.s-check-btn {
+    background-color: var(--clr-light-blue);
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
